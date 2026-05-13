@@ -1,0 +1,48 @@
+{
+  "agents": [
+    {
+      "id": "1",
+      "name": "Mike Miller",
+      "age": 60,
+      "sex": "Female",
+      "big5": ["M", "M", "L", "M", "H"],
+      "role": "TEACHER",
+      "home": "1",
+      "work_place": "3",
+      "wealth": "M"
+    },
+    {
+      "id": "2",
+      "name": "Ava Chen",
+      "age": 12,
+      "sex": "Female",
+      "big5": ["H", "M", "H", "M", "L"],
+      "role": "STUDENT",
+      "home": "2",
+      "work_place": "3",
+      "wealth": "L"
+    },
+    {
+      "id": "3",
+      "name": "Noah Park",
+      "age": 35,
+      "sex": "Male",
+      "big5": ["M", "H", "M", "L", "M"],
+      "role": "WORKER",
+      "home": "1",
+      "work_place": "6",
+      "wealth": "M"
+    },
+    {
+      "id": "4",
+      "name": "Lina Zhao",
+      "age": 29,
+      "sex": "Female",
+      "big5": ["H", "L", "M", "H", "M"],
+      "role": "MERCHANT",
+      "home": "2",
+      "work_place": "4",
+      "wealth": "M"
+    }
+  ]
+}

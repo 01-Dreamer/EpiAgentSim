@@ -1,9 +1,13 @@
 import OpenAI from "openai";
 
 export class OpenAIPlanner {
-  constructor({ apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL ?? "gpt-4o-mini" } = {}) {
+  constructor({
+    apiKey = process.env.OPENAI_API_KEY,
+    baseURL = process.env.OPENAI_BASE_URL,
+    model = process.env.OPENAI_MODEL ?? "deepseek-ai/DeepSeek-V3.2"
+  } = {}) {
     this.model = model;
-    this.client = apiKey ? new OpenAI({ apiKey }) : null;
+    this.client = apiKey ? new OpenAI({ apiKey, baseURL }) : null;
   }
 
   isEnabled() {
@@ -17,36 +21,44 @@ export class OpenAIPlanner {
       type: place.type
     }));
 
-    const response = await this.client.responses.create({
+    const response = await this.client.chat.completions.create({
       model: this.model,
-      instructions: [
-        "You are controlling one agent in an infectious disease simulation.",
-        "Return only compact JSON with keys: plan, actionDescription, destinationId, treatmentDecision.",
-        "destinationId must be one of the provided place ids.",
-        "treatmentDecision must be one of: none, hospital."
-      ].join(" "),
-      input: JSON.stringify({
-        time: context.currentTime.toISOString(),
-        disease: context.disease,
-        outbreakSummary: context.summary,
-        agent: {
-          id: agent.id,
-          name: agent.name,
-          age: agent.age,
-          role: agent.role,
-          healthState: agent.healthState,
-          symptomLevel: agent.symptomLevel,
-          riskPerception: agent.riskPerception,
-          homePlaceId: agent.homePlaceId,
-          workPlaceId: agent.workPlaceId,
-          currentPlaceId: agent.currentPlaceId,
-          treatmentType: agent.treatmentType
+      messages: [
+        {
+          role: "system",
+          content: [
+            "You are controlling one agent in an infectious disease simulation.",
+            "Return only compact JSON with keys: plan, actionDescription, destinationId, treatmentDecision.",
+            "destinationId must be one of the provided place ids.",
+            "treatmentDecision must be one of: none, hospital."
+          ].join(" ")
         },
-        places
-      })
+        {
+          role: "user",
+          content: JSON.stringify({
+            time: context.currentTime.toISOString(),
+            disease: context.disease,
+            outbreakSummary: context.summary,
+            agent: {
+              id: agent.id,
+              name: agent.name,
+              age: agent.age,
+              role: agent.role,
+              healthState: agent.healthState,
+              symptomLevel: agent.symptomLevel,
+              riskPerception: agent.riskPerception,
+              homePlaceId: agent.homePlaceId,
+              workPlaceId: agent.workPlaceId,
+              currentPlaceId: agent.currentPlaceId,
+              treatmentType: agent.treatmentType
+            },
+            places
+          })
+        }
+      ]
     });
 
-    return parseDecision(response.output_text);
+    return parseDecision(response.choices?.[0]?.message?.content ?? "");
   }
 }
 

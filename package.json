@@ -1,18 +1,29 @@
 {
-  "name": "epi-agent-sim",
+  "name": "1",
   "version": "0.1.0",
   "description": "Node.js agent-based infectious disease simulation with optional OpenAI-powered decisions.",
+  "homepage": "https://github.com/01-Dreamer/EpiAgentSim#readme",
+  "bugs": {
+    "url": "https://github.com/01-Dreamer/EpiAgentSim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01-Dreamer/EpiAgentSim.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
-  "main": "src/server.js",
+  "main": "src/cli.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/cli.js",
     "simulate": "node src/cli.js",
     "test": "node --test"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
     "openai": "^6.1.0"
   },
   "devDependencies": {}

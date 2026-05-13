@@ -8,7 +8,7 @@
 - 疾病状态按 `susceptible -> exposed -> infected -> recovered/deceased` 推进。
 - 空间距离小于疾病配置里的 `infectedRadiusMeters` 时触发接触传播。
 - 可选使用 OpenAI 为 Agent 生成计划、行动地点和治疗决策。
-- 支持 CLI 一次性模拟，也支持 Express HTTP 服务逐步推进。
+- 使用 CLI 运行模拟，并直接把结果保存为 JSON 文件。
 
 ## 安装
 
@@ -20,10 +20,13 @@ npm install
 
 ```bash
 OPENAI_API_KEY=你的 key
-OPENAI_MODEL=gpt-4o-mini
-PORT=3000
+OPENAI_BASE_URL=https://api.siliconflow.cn/v1
+OPENAI_MODEL=deepseek-ai/DeepSeek-V3.2
 SIM_SEED=epi-agent-sim
+SIM_BASE=storage/base
 ```
+
+如果你使用的是硅基流动国际站，可以把 `OPENAI_BASE_URL` 改成 `https://api.siliconflow.com/v1`。模型名需要和硅基流动模型广场里的 ID 完全一致。
 
 ## CLI 运行
 
@@ -33,42 +36,39 @@ SIM_SEED=epi-agent-sim
 npm run simulate -- --steps 72
 ```
 
+模拟结果会默认保存到当前 base 的 movement 目录：
+
+```text
+storage/base/movement/0.json
+storage/base/movement/1.json
+storage/base/movement/2.json
+...
+```
+
 启用 OpenAI 决策：
 
 ```bash
 npm run simulate -- --steps 24 --llm
 ```
 
-保存结果：
+指定另一个模拟 base：
 
 ```bash
-npm run simulate -- --steps 72 --out output/result.json
+npm run simulate -- --steps 72 --base storage/experiment_001
 ```
 
-## HTTP 服务
+## Storage 结构
 
-```bash
-npm start
-```
-
-常用接口：
-
-- `GET /health`：服务状态
-- `GET /state`：当前世界状态
-- `POST /simulate/step`：推进一个或多个时间步，body 示例：`{"steps": 6, "useLLM": false}`
-- `POST /simulate/run`：重置并运行，body 示例：`{"steps": 48, "useLLM": true}`
-- `POST /agents`：替换 agent 列表
-- `POST /reset`：重置模拟
-
-## 数据文件
-
-- `data/agents.json`：初始人群
-- `data/places.json`：地点
+- `storage/base/agent/agents.json`：Agent 静态信息
+- `storage/base/building/buildings.json`：建筑/地点静态信息
+- `storage/base/movement/0.json`：初始动态状态
+- `storage/base/movement/1.json`、`2.json`、`3.json`：逐步模拟结果
 - `data/disease.json`：疾病参数
+
+项目不使用 MongoDB，输入数据和模拟输出都通过 JSON 文件管理。
 
 ## 测试
 
 ```bash
 npm test
 ```
-

@@ -41,10 +41,10 @@ export class Simulation {
 
     events.push(...this.spreadInfections());
 
-    const snapshot = this.snapshot(events);
-    this.history.push(snapshot);
     this.stepIndex += 1;
     this.currentTime = new Date(this.currentTime.getTime() + this.stepHours * 36e5);
+    const snapshot = this.snapshot(events);
+    this.history.push(snapshot);
     return snapshot;
   }
 
