@@ -1,7 +1,7 @@
 {
   "name": "1",
   "version": "0.1.0",
-  "description": "Node.js agent-based infectious disease simulation with optional OpenAI-powered decisions.",
+  "description": "TypeScript agent-based infectious disease simulation with optional OpenAI-powered decisions.",
   "homepage": "https://github.com/01-Dreamer/EpiAgentSim#readme",
   "bugs": {
     "url": "https://github.com/01-Dreamer/EpiAgentSim/issues"
@@ -13,18 +13,20 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "src/cli.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "src/cli.ts",
   "scripts": {
-    "start": "node src/cli.js",
-    "simulate": "node src/cli.js",
-    "test": "node --test"
+    "start": "tsx src/cli.ts",
+    "generate": "tsx src/generateData.ts",
+    "simulate": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
     "openai": "^6.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
 }

@@ -2,61 +2,2008 @@
   "step": 0,
   "current_time": "2026-05-13T08:00:00+08:00",
   "world": {
-    "news": "There are no confirmed outbreaks in the town yet. Schools, markets, and offices remain open."
+    "news": ""
   },
   "agents": {
     "agent_1": {
-      "feeling": "身体不适",
-      "health_state": "I",
+      "feeling": "physically relaxed",
+      "health_state": "S",
       "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_2": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_3": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_4": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_5": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_6": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_7": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_8": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_9": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_10": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_11": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_12": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_13": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_14": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_15": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_16": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_17": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_18": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_19": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_20": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_21": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_22": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_23": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_24": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_25": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_26": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_27": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_28": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_29": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_30": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_31": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_32": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_33": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_34": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_35": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_36": {
+      "feeling": "physically relaxed",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_37": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_38": {
+      "feeling": "physically relaxed",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_39": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_40": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_41": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_42": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_43": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_44": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_45": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_46": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_47": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_48": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_49": {
+      "feeling": "low energy",
+      "health_state": "I",
+      "exposure_step": 0,
       "infectious_step": 0,
       "recovery_step": null,
       "death_step": null,
-      "current_location": "building_1",
+      "current_location": "building_13",
       "current_action": {
         "type": "RESTING",
-        "description": "刚刚醒来，感觉身体不适，正在考虑今天是否去学校。"
+        "description": "Just woke up and is getting ready to start a new day."
       },
-      "today_plan": [
-        {
-            "time": "2026-05-13T08:00:00+08:00",
-            "content": "I woke up feeling unwell this morning, with fatigue and a mild cough."
-        }
-      ],
+      "daily_plan": [],
       "memory": {
-          "today": [
-            {
-              "time": "2026-05-13T08:00:00+08:00",
-              "content": "I woke up feeling unwell this morning, with fatigue and a mild cough.",
-              "importance": 3
-            }
-          ],
-
-          "daily_summaries": [
-            {
-              "date": "2026-05-12",
-              "content": "Mike had a normal workday at Community School. He felt healthy, taught classes, returned home in the afternoon, and did not notice any unusual illness around him.",
-              "importance": 4
-            }
-          ],
-
-          "weekly_summaries": [
-            {
-              "week_start": "2026-05-06",
-              "week_end": "2026-05-12",
-              "content": "During the past week, Mike followed his regular teaching routine. He generally complied with school guidance and did not show strong concern about disease risk because there were no confirmed local outbreaks.",
-              "importance": 4
-            }
-          ],
-
-          "monthly_summaries": [
-            {
-              "month": "2026-05",
-              "content": "So far in May, Mike has behaved like a cautious but responsible teacher. He values his teaching duties, but his high health awareness makes him more likely to stay home when he notices symptoms.",
-              "importance": 4
-            }
-          ]
-        }
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_50": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_51": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_52": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_53": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_54": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_55": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_56": {
+      "feeling": "physically relaxed",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_57": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_58": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_59": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_60": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_61": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_62": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_63": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_64": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_65": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_66": {
+      "feeling": "physically relaxed",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_67": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_68": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_69": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_70": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_71": {
+      "feeling": "chills",
+      "health_state": "I",
+      "exposure_step": 0,
+      "infectious_step": 0,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_72": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_73": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_74": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_75": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_76": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_77": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_78": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_79": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_80": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_81": {
+      "feeling": "feeling well",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_82": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_83": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_84": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_85": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_86": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_87": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_88": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_89": {
+      "feeling": "normal",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_90": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_10",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_91": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_11",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_92": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_12",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_93": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_13",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_94": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_14",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_95": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_15",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_96": {
+      "feeling": "emotionally stable",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_16",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_97": {
+      "feeling": "feeling healthy",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_17",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_98": {
+      "feeling": "no discomfort",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_18",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_99": {
+      "feeling": "calm",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_19",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
+    },
+    "agent_100": {
+      "feeling": "energetic",
+      "health_state": "S",
+      "exposure_step": null,
+      "infectious_step": null,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_9",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up and is getting ready to start a new day."
+      },
+      "daily_plan": [],
+      "memory": {
+        "today": [],
+        "daily_summaries": [],
+        "weekly_summaries": [],
+        "monthly_summaries": []
+      }
     }
   }
 }

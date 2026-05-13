@@ -7,7 +7,9 @@ export class OpenAIPlanner {
     model = process.env.OPENAI_MODEL ?? "deepseek-ai/DeepSeek-V3.2"
   } = {}) {
     this.model = model;
-    this.client = apiKey ? new OpenAI({ apiKey, baseURL }) : null;
+    const hasUsableKey = Boolean(apiKey && apiKey !== "your_api_key");
+    const normalizedBaseURL = baseURL === "your_base_url" ? undefined : baseURL;
+    this.client = hasUsableKey ? new OpenAI({ apiKey, baseURL: normalizedBaseURL }) : null;
   }
 
   isEnabled() {

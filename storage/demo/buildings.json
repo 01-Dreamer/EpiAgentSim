@@ -1,7 +1,252 @@
-{
-  "id": "building_1",
-  "name": "Home A",
-  "type": "RESIDENTIAL",
-  "location": [39.9042, 116.4074],
-  "capacity": 4
-}
+[
+  {
+    "id": "building_1",
+    "name": "School_1",
+    "type": "SCHOOL",
+    "location": [
+      39.9001724,
+      116.4131619
+    ],
+    "capacity": 200
+  },
+  {
+    "id": "building_2",
+    "name": "School_2",
+    "type": "SCHOOL",
+    "location": [
+      39.9093531,
+      116.4081454
+    ],
+    "capacity": 200
+  },
+  {
+    "id": "building_3",
+    "name": "School_3",
+    "type": "SCHOOL",
+    "location": [
+      39.9044671,
+      116.4086968
+    ],
+    "capacity": 200
+  },
+  {
+    "id": "building_4",
+    "name": "Market_1",
+    "type": "MARKET",
+    "location": [
+      39.8939455,
+      116.4050939
+    ],
+    "capacity": 90
+  },
+  {
+    "id": "building_5",
+    "name": "Market_2",
+    "type": "MARKET",
+    "location": [
+      39.9095193,
+      116.4070561
+    ],
+    "capacity": 90
+  },
+  {
+    "id": "building_6",
+    "name": "Market_3",
+    "type": "MARKET",
+    "location": [
+      39.8964819,
+      116.4164
+    ],
+    "capacity": 90
+  },
+  {
+    "id": "building_7",
+    "name": "Public_1",
+    "type": "PUBLIC",
+    "location": [
+      39.9067353,
+      116.4018905
+    ],
+    "capacity": 120
+  },
+  {
+    "id": "building_8",
+    "name": "Public_2",
+    "type": "PUBLIC",
+    "location": [
+      39.8953735,
+      116.4125996
+    ],
+    "capacity": 120
+  },
+  {
+    "id": "building_9",
+    "name": "Residential_1",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9048678,
+      116.3946259
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_10",
+    "name": "Residential_2",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9116331,
+      116.4062876
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_11",
+    "name": "Residential_3",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9118402,
+      116.4090927
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_12",
+    "name": "Residential_4",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9058316,
+      116.4208182
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_13",
+    "name": "Residential_5",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9027639,
+      116.4005257
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_14",
+    "name": "Residential_6",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9051345,
+      116.4184367
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_15",
+    "name": "Residential_7",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.894067,
+      116.4044382
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_16",
+    "name": "Residential_8",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.912006,
+      116.4038433
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_17",
+    "name": "Residential_9",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9009707,
+      116.4027832
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_18",
+    "name": "Residential_10",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9031318,
+      116.4094524
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_19",
+    "name": "Residential_11",
+    "type": "RESIDENTIAL",
+    "location": [
+      39.9110838,
+      116.3966236
+    ],
+    "capacity": 6
+  },
+  {
+    "id": "building_20",
+    "name": "Medical_1",
+    "type": "MEDICAL",
+    "location": [
+      39.9054351,
+      116.3935939
+    ],
+    "capacity": 60
+  },
+  {
+    "id": "building_21",
+    "name": "Office_1",
+    "type": "OFFICE",
+    "location": [
+      39.8972622,
+      116.4060283
+    ],
+    "capacity": 45
+  },
+  {
+    "id": "building_22",
+    "name": "Office_2",
+    "type": "OFFICE",
+    "location": [
+      39.903927,
+      116.4208011
+    ],
+    "capacity": 45
+  },
+  {
+    "id": "building_23",
+    "name": "Office_3",
+    "type": "OFFICE",
+    "location": [
+      39.9029005,
+      116.4013302
+    ],
+    "capacity": 45
+  },
+  {
+    "id": "building_24",
+    "name": "Office_4",
+    "type": "OFFICE",
+    "location": [
+      39.9118851,
+      116.4136508
+    ],
+    "capacity": 45
+  },
+  {
+    "id": "building_25",
+    "name": "Office_5",
+    "type": "OFFICE",
+    "location": [
+      39.9046222,
+      116.4018489
+    ],
+    "capacity": 45
+  }
+]

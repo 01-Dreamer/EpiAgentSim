@@ -1,7 +1,7 @@
-import { createRng } from "./random.js";
-import { distanceMeters } from "./geo.js";
-import { advanceDisease, exposeAgent, HealthState, isContagious } from "./health.js";
-import { chooseRuleBasedDecision } from "./policy.js";
+import { createRng } from "./random";
+import { distanceMeters } from "./geo";
+import { advanceDisease, appendMemory, exposeAgent, HealthState, isContagious } from "./health";
+import { chooseRuleBasedDecision } from "./policy";
 
 export class Simulation {
   constructor({ agents, places, disease, seed = "epi-agent-sim", startTime = "2026-05-13T00:00:00.000Z", stepHours = 1 }) {
@@ -65,8 +65,7 @@ export class Simulation {
           return decision;
         }
       } catch (error) {
-        agent.memory ??= [];
-        agent.memory.push({
+        appendMemory(agent, {
           time: this.currentTime.toISOString(),
           event: "llm_decision_failed",
           detail: error.message

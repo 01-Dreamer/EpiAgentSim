@@ -1,9 +1,9 @@
-import { choice, clamp } from "./random.js";
-import { HealthState } from "./health.js";
+import { choice, clamp } from "./random";
+import { HealthState } from "./health";
 
 export function chooseRuleBasedDecision(agent, context, rng) {
   const { places, currentTime } = context;
-  const hour = currentTime.getUTCHours();
+  const hour = currentTime.getHours();
   const hospitals = places.filter((place) => place.type === "hospital");
   const markets = places.filter((place) => place.type === "market");
   const publicPlaces = places.filter((place) => ["market", "school", "work"].includes(place.type));

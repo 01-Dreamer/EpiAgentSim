@@ -1,0 +1,59 @@
+{
+  "step": 0,
+  "current_time": "2026-05-13T08:00:00+08:00",
+  "world": {
+    "news": "There are no confirmed outbreaks in the town yet. Schools, markets, and offices remain open."
+  },
+  "agents": {
+    "agent_1": {
+      "feeling": "feeling unwell",
+      "health_state": "I",
+      "exposure_step": null,
+      "infectious_step": 0,
+      "recovery_step": null,
+      "death_step": null,
+      "current_location": "building_1",
+      "current_action": {
+        "type": "RESTING",
+        "description": "Just woke up, feeling unwell, and considering whether to go to school today."
+      },
+      "daily_plan": [
+        {
+          "time": "2026-05-13T08:00:00+08:00",
+          "content": "I woke up feeling unwell this morning, with fatigue and a mild cough."
+        }
+      ],
+      "memory": {
+        "today": [
+          {
+            "time": "2026-05-13T08:00:00+08:00",
+            "content": "I woke up feeling unwell this morning, with fatigue and a mild cough.",
+            "importance": 4
+          }
+        ],
+        "daily_summaries": [
+          {
+            "date": "2026-05-12",
+            "content": "Mike had a normal workday at Community School. He felt healthy, taught classes, returned home in the afternoon, and did not notice any unusual illness around him.",
+            "importance": 4
+          }
+        ],
+        "weekly_summaries": [
+          {
+            "week_start": "2026-05-06",
+            "week_end": "2026-05-12",
+            "content": "During the past week, Mike followed his regular teaching routine. He generally complied with school guidance and did not show strong concern about disease risk because there were no confirmed local outbreaks.",
+            "importance": 4
+          }
+        ],
+        "monthly_summaries": [
+          {
+            "month": "2026-05",
+            "content": "So far in May, Mike has behaved like a cautious but responsible teacher. He values his teaching duties, but his high health awareness makes him more likely to stay home when he notices symptoms.",
+            "importance": 4
+          }
+        ]
+      }
+    }
+  }
+}

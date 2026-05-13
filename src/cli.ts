@@ -1,20 +1,21 @@
 import "dotenv/config";
-import { Simulation } from "./core/simulation.js";
-import { loadDefaultWorld } from "./dataLoader.js";
-import { OpenAIPlanner } from "./services/openaiPlanner.js";
-import { saveSimulationBase } from "./storage/jsonFileStore.js";
+import { Simulation } from "./core/simulation";
+import { loadDefaultWorld } from "./dataLoader";
+import { OpenAIPlanner } from "./services/openaiPlanner";
+import { saveSimulationBase } from "./storage/jsonFileStore";
 
 const args = parseArgs(process.argv.slice(2));
-const baseDir = args.base ?? process.env.SIM_BASE ?? "storage/base";
-const world = await loadDefaultWorld(process.cwd(), baseDir);
+const environment = args.positionals[0] ?? "example";
+const steps = Number(args.positionals[1] ?? args.steps ?? 24);
+const world = await loadDefaultWorld(process.cwd(), environment);
 const simulation = new Simulation({
   ...world,
-  seed: args.seed ?? process.env.SIM_SEED ?? "epi-agent-sim"
+  seed: String(world.config.rand_seed ?? "epi-agent-sim")
 });
 
 const planner = new OpenAIPlanner();
 const initialSnapshot = simulation.snapshot();
-const snapshots = await simulation.run(Number(args.steps ?? 24), {
+const snapshots = await simulation.run(steps, {
   planner,
   useLLM: Boolean(args.llm)
 });
@@ -33,7 +34,7 @@ console.log(JSON.stringify({
   time: result.time,
   summary: result.summary,
   llm: result.llm,
-  base: baseDir
+  environment
 }, null, 2));
 
 const savedPath = await saveSimulationBase({
@@ -41,6 +42,8 @@ const savedPath = await saveSimulationBase({
   config: world.config,
   agents: world.storageAgents,
   buildings: world.storageBuildings,
+  world: world.storageWorld,
+  startTimeText: world.storageStartTime,
   initialSnapshot,
   snapshots,
   stepHours: simulation.stepHours
@@ -48,7 +51,7 @@ const savedPath = await saveSimulationBase({
 console.log(`Saved movement/0.json through movement/${snapshots.length}.json under ${savedPath}`);
 
 function parseArgs(argv) {
-  const parsed = {};
+  const parsed: any = { positionals: [] };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--llm") {
@@ -56,6 +59,8 @@ function parseArgs(argv) {
     } else if (arg.startsWith("--")) {
       parsed[arg.slice(2)] = argv[i + 1];
       i += 1;
+    } else {
+      parsed.positionals.push(arg);
     }
   }
   return parsed;

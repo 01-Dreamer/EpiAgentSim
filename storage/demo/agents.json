@@ -1,31 +1,2700 @@
 [
   {
     "id": "agent_1",
-    "name": "Mike Miller",
-    "age": 60,
+    "name": "Sara Li",
+    "age": 34,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_2",
+    "name": "Zane Zhou",
+    "age": 54,
     "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_3",
+    "name": "Yan Liu",
+    "age": 12,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_4",
+    "name": "Rui Wu",
+    "age": 41,
+    "sex": "MALE",
     "role": "TEACHER",
-
-    "home_building_id": "building_001",
-    "workplace_building_id": "building_003",
-
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_5",
+    "name": "Eli Huang",
+    "age": 7,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_6",
+    "name": "Xiao Zhang",
+    "age": 19,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_7",
+    "name": "Wei Zhou",
+    "age": 48,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_8",
+    "name": "Ping Huang",
+    "age": 8,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_9",
+    "name": "Uma Chen",
+    "age": 45,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_21",
     "personality": {
       "big5": {
         "openness": "M",
         "conscientiousness": "M",
         "extraversion": "L",
-        "agreeableness": "M",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_10",
+    "name": "Xiao Sun",
+    "age": 24,
+    "sex": "FEMALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_4",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_11",
+    "name": "Qiao Lin",
+    "age": 53,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
         "neuroticism": "H"
       }
     },
-
     "behavior_tendencies": {
       "risk_tolerance": "L",
       "policy_compliance": "M",
       "health_awareness": "H",
       "social_activity": "M"
     },
-
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_12",
+    "name": "Vera Zhou",
+    "age": 70,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_13",
+    "name": "Eli Hu",
+    "age": 14,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_14",
+    "name": "Ben Yang",
+    "age": 39,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_24",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_15",
+    "name": "Hao Zhou",
+    "age": 58,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_16",
+    "name": "Mia Zhou",
+    "age": 28,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_17",
+    "name": "Uma Huang",
+    "age": 33,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_18",
+    "name": "Wei Guo",
+    "age": 8,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_19",
+    "name": "Zane Zhou",
+    "age": 39,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_20",
+    "name": "Ping Zhou",
+    "age": 46,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_21",
+    "name": "Rui Guo",
+    "age": 57,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_6",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_22",
+    "name": "Zane Chen",
+    "age": 28,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_23",
+    "name": "Tao Zhao",
+    "age": 14,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_24",
+    "name": "Tao Hu",
+    "age": 22,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_25",
+    "name": "Lina Hu",
+    "age": 20,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_26",
+    "name": "Ping Zhao",
+    "age": 24,
+    "sex": "MALE",
+    "role": "TEACHER",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_27",
+    "name": "Tao Xu",
+    "age": 68,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_28",
+    "name": "Qiao Huang",
+    "age": 24,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_29",
+    "name": "Kai Wang",
+    "age": 24,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_30",
+    "name": "Rui Hu",
+    "age": 49,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_31",
+    "name": "Chen Hu",
+    "age": 41,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_32",
+    "name": "Noah Zhou",
+    "age": 46,
+    "sex": "FEMALE",
+    "role": "UNEMPLOYED",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_33",
+    "name": "Hao Zhao",
+    "age": 19,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_34",
+    "name": "Alex Huang",
+    "age": 29,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_35",
+    "name": "Lina Hu",
+    "age": 39,
+    "sex": "MALE",
+    "role": "DOCTOR",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_20",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_36",
+    "name": "Tao Chen",
+    "age": 51,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_4",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_37",
+    "name": "Fang Lin",
+    "age": 61,
+    "sex": "FEMALE",
+    "role": "RETIRED",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_38",
+    "name": "Ping Sun",
+    "age": 35,
+    "sex": "FEMALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_4",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_39",
+    "name": "Jin Chen",
+    "age": 58,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_24",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_40",
+    "name": "Xiao Xu",
+    "age": 57,
+    "sex": "MALE",
+    "role": "DOCTOR",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_20",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_41",
+    "name": "Noah Ma",
+    "age": 8,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_42",
+    "name": "Alex Xu",
+    "age": 43,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_25",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_43",
+    "name": "Hao Lin",
+    "age": 75,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_44",
+    "name": "Qiao Xu",
+    "age": 42,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_45",
+    "name": "Hao Hu",
+    "age": 38,
+    "sex": "FEMALE",
+    "role": "UNEMPLOYED",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_46",
+    "name": "Mia Ma",
+    "age": 30,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_47",
+    "name": "Jin Li",
+    "age": 45,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_48",
+    "name": "Chen Zhou",
+    "age": 42,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_49",
+    "name": "Qiao Zhou",
+    "age": 22,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_50",
+    "name": "Tao Sun",
+    "age": 26,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_24",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_51",
+    "name": "Sara Guo",
+    "age": 38,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_52",
+    "name": "Sara Guo",
+    "age": 17,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_53",
+    "name": "Kai Zhou",
+    "age": 35,
+    "sex": "MALE",
+    "role": "UNEMPLOYED",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_54",
+    "name": "Ben Sun",
+    "age": 34,
+    "sex": "MALE",
+    "role": "TEACHER",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_55",
+    "name": "Ben Ma",
+    "age": 33,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_56",
+    "name": "Uma Huang",
+    "age": 54,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_57",
+    "name": "Mia Yang",
+    "age": 56,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_25",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_58",
+    "name": "Kai Wang",
+    "age": 30,
+    "sex": "FEMALE",
+    "role": "DOCTOR",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_20",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_59",
+    "name": "Ben Yang",
+    "age": 59,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_60",
+    "name": "Mia Sun",
+    "age": 62,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_61",
+    "name": "Hao Li",
+    "age": 69,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_62",
+    "name": "Alex Guo",
+    "age": 76,
+    "sex": "FEMALE",
+    "role": "RETIRED",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_63",
+    "name": "Jin Wu",
+    "age": 36,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_64",
+    "name": "Lina Li",
+    "age": 31,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_4",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_65",
+    "name": "Rui Xu",
+    "age": 16,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_66",
+    "name": "Fang Lin",
+    "age": 44,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_67",
+    "name": "Mia Lin",
+    "age": 15,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_68",
+    "name": "Sara Huang",
+    "age": 21,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_69",
+    "name": "Lina Chen",
+    "age": 26,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_6",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_70",
+    "name": "Zane Chen",
+    "age": 15,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_71",
+    "name": "Yan Chen",
+    "age": 10,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_72",
+    "name": "Grace Sun",
+    "age": 13,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_73",
+    "name": "Wei Zhang",
+    "age": 42,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_74",
+    "name": "Iris Li",
+    "age": 35,
+    "sex": "MALE",
+    "role": "DOCTOR",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_20",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_75",
+    "name": "Alex Li",
+    "age": 41,
+    "sex": "FEMALE",
+    "role": "UNEMPLOYED",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_76",
+    "name": "Fang Liu",
+    "age": 53,
+    "sex": "FEMALE",
+    "role": "DOCTOR",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_20",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_77",
+    "name": "Sara Ma",
+    "age": 41,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_78",
+    "name": "Xiao Liu",
+    "age": 43,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_79",
+    "name": "Xiao Chen",
+    "age": 55,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_23",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_80",
+    "name": "Sara Huang",
+    "age": 17,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_81",
+    "name": "Alex Li",
+    "age": 31,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_82",
+    "name": "Wei Lin",
+    "age": 49,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_25",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_83",
+    "name": "Kai Sun",
+    "age": 38,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_84",
+    "name": "Sara Li",
+    "age": 25,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_85",
+    "name": "Jin Zhao",
+    "age": 26,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_25",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_86",
+    "name": "Kai Li",
+    "age": 59,
+    "sex": "FEMALE",
+    "role": "UNEMPLOYED",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_87",
+    "name": "Wei Zhao",
+    "age": 14,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "H",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "H",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_88",
+    "name": "Hao Zhou",
+    "age": 26,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_25",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_89",
+    "name": "Ben Zhou",
+    "age": 24,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_22",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_90",
+    "name": "Tao Zhao",
+    "age": 37,
+    "sex": "MALE",
+    "role": "WORKER",
+    "home_building_id": "building_10",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "H"
+    }
+  },
+  {
+    "id": "agent_91",
+    "name": "Mia Liu",
+    "age": 84,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_11",
+    "workplace_building_id": "building_8",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_92",
+    "name": "Yan Huang",
+    "age": 72,
+    "sex": "MALE",
+    "role": "RETIRED",
+    "home_building_id": "building_12",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_93",
+    "name": "Eli Li",
+    "age": 13,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_13",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_94",
+    "name": "Wei Wang",
+    "age": 59,
+    "sex": "FEMALE",
+    "role": "WORKER",
+    "home_building_id": "building_14",
+    "workplace_building_id": "building_21",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "M"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "H",
+      "health_awareness": "L",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_95",
+    "name": "Noah Liu",
+    "age": 60,
+    "sex": "FEMALE",
+    "role": "RETIRED",
+    "home_building_id": "building_15",
+    "workplace_building_id": "building_7",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "M",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_96",
+    "name": "Mia Wu",
+    "age": 7,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_16",
+    "workplace_building_id": "building_2",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "M",
+        "extraversion": "H",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "M",
+      "policy_compliance": "L",
+      "health_awareness": "M",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_97",
+    "name": "Chen Zhang",
+    "age": 59,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_17",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "H",
+        "extraversion": "L",
+        "agreeableness": "H",
+        "neuroticism": "L"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "L",
+      "social_activity": "L"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_98",
+    "name": "Mia Xu",
+    "age": 7,
+    "sex": "FEMALE",
+    "role": "STUDENT",
+    "home_building_id": "building_18",
+    "workplace_building_id": "building_1",
+    "personality": {
+      "big5": {
+        "openness": "H",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+    "socioeconomic": {
+      "wealth_level": "L"
+    }
+  },
+  {
+    "id": "agent_99",
+    "name": "Rui Ma",
+    "age": 48,
+    "sex": "MALE",
+    "role": "MERCHANT",
+    "home_building_id": "building_19",
+    "workplace_building_id": "building_5",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "H",
+        "extraversion": "M",
+        "agreeableness": "H",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "H"
+    },
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  },
+  {
+    "id": "agent_100",
+    "name": "Vera Wu",
+    "age": 16,
+    "sex": "MALE",
+    "role": "STUDENT",
+    "home_building_id": "building_9",
+    "workplace_building_id": "building_3",
+    "personality": {
+      "big5": {
+        "openness": "L",
+        "conscientiousness": "L",
+        "extraversion": "M",
+        "agreeableness": "L",
+        "neuroticism": "H"
+      }
+    },
+    "behavior_tendencies": {
+      "risk_tolerance": "H",
+      "policy_compliance": "L",
+      "health_awareness": "H",
+      "social_activity": "L"
+    },
     "socioeconomic": {
       "wealth_level": "M"
     }
