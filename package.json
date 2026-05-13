@@ -1,0 +1,19 @@
+{
+  "name": "epi-agent-sim",
+  "version": "0.1.0",
+  "description": "Node.js agent-based infectious disease simulation with optional OpenAI-powered decisions.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "simulate": "node src/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^6.1.0"
+  },
+  "devDependencies": {}
+}

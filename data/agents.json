@@ -1,0 +1,47 @@
+[
+  {
+    "id": "agent_1",
+    "name": "Mike Miller",
+    "age": 60,
+    "role": "teacher",
+    "homePlaceId": "home_a",
+    "workPlaceId": "school_1",
+    "currentPlaceId": "home_a",
+    "healthState": "infected",
+    "riskPerception": 0.65,
+    "infectedAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "agent_2",
+    "name": "Ava Chen",
+    "age": 12,
+    "role": "student",
+    "homePlaceId": "home_b",
+    "workPlaceId": "school_1",
+    "currentPlaceId": "home_b",
+    "healthState": "susceptible",
+    "riskPerception": 0.35
+  },
+  {
+    "id": "agent_3",
+    "name": "Noah Park",
+    "age": 35,
+    "role": "worker",
+    "homePlaceId": "home_a",
+    "workPlaceId": "office_1",
+    "currentPlaceId": "home_a",
+    "healthState": "susceptible",
+    "riskPerception": 0.45
+  },
+  {
+    "id": "agent_4",
+    "name": "Lina Zhao",
+    "age": 29,
+    "role": "merchant",
+    "homePlaceId": "home_b",
+    "workPlaceId": "market_1",
+    "currentPlaceId": "market_1",
+    "healthState": "susceptible",
+    "riskPerception": 0.5
+  }
+]

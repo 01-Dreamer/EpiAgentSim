@@ -1,0 +1,6 @@
+.env
+reference_project/
+node_modules/
+coverage/
+*.log
+output/
