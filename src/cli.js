@@ -38,6 +38,7 @@ console.log(JSON.stringify({
 
 const savedPath = await saveSimulationBase({
   baseDir: world.baseDir,
+  config: world.config,
   agents: world.storageAgents,
   buildings: world.storageBuildings,
   initialSnapshot,

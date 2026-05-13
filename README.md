@@ -59,11 +59,11 @@ npm run simulate -- --steps 72 --base storage/experiment_001
 
 ## Storage 结构
 
+- `storage/base/config.json`：模拟配置，包括疾病参数、开始时间、每步时长
 - `storage/base/agent/agents.json`：Agent 静态信息
 - `storage/base/building/buildings.json`：建筑/地点静态信息
 - `storage/base/movement/0.json`：初始动态状态
 - `storage/base/movement/1.json`、`2.json`、`3.json`：逐步模拟结果
-- `data/disease.json`：疾病参数
 
 项目不使用 MongoDB，输入数据和模拟输出都通过 JSON 文件管理。
 

@@ -9,9 +9,10 @@ const HEALTH_TO_STORAGE = {
   deceased: "D"
 };
 
-export async function saveSimulationBase({ baseDir, agents, buildings, initialSnapshot, snapshots, stepHours = 1 }) {
+export async function saveSimulationBase({ baseDir, config, agents, buildings, initialSnapshot, snapshots, stepHours = 1 }) {
   const absoluteBaseDir = path.resolve(baseDir);
   await Promise.all([
+    writeJson(path.join(absoluteBaseDir, "config.json"), config),
     writeJson(path.join(absoluteBaseDir, "agent", "agents.json"), agents),
     writeJson(path.join(absoluteBaseDir, "building", "buildings.json"), buildings),
     writeMovement(absoluteBaseDir, 0, initialSnapshot, initialSnapshot.time, stepHours)

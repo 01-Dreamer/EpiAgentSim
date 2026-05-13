@@ -1,0 +1,33 @@
+[
+  {
+    "id": "agent_1",
+    "name": "Mike Miller",
+    "age": 60,
+    "sex": "FEMALE",
+    "role": "TEACHER",
+
+    "home_building_id": "building_001",
+    "workplace_building_id": "building_003",
+
+    "personality": {
+      "big5": {
+        "openness": "M",
+        "conscientiousness": "M",
+        "extraversion": "L",
+        "agreeableness": "M",
+        "neuroticism": "H"
+      }
+    },
+
+    "behavior_tendencies": {
+      "risk_tolerance": "L",
+      "policy_compliance": "M",
+      "health_awareness": "H",
+      "social_activity": "M"
+    },
+
+    "socioeconomic": {
+      "wealth_level": "M"
+    }
+  }
+]

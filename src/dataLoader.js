@@ -16,14 +16,14 @@ export async function loadJson(filePath) {
 
 export async function loadDefaultWorld(rootDir = process.cwd(), baseDir = "storage/base") {
   const resolvedBaseDir = path.resolve(rootDir, baseDir);
-  const [agentDocument, buildingDocument, initialMovement, disease] = await Promise.all([
+  const [config, agentDocument, buildingDocument, initialMovement] = await Promise.all([
+    loadJson(path.join(resolvedBaseDir, "config.json")),
     loadJson(path.join(resolvedBaseDir, "agent", "agents.json")),
     loadJson(path.join(resolvedBaseDir, "building", "buildings.json")),
-    loadJson(path.join(resolvedBaseDir, "movement", "0.json")),
-    loadJson(path.join(rootDir, "data", "disease.json"))
+    loadJson(path.join(resolvedBaseDir, "movement", "0.json"))
   ]);
 
-  const startTime = storageTimeToIso(initialMovement.current_time);
+  const startTime = storageTimeToIso(initialMovement.current_time ?? config.startTime);
   const places = buildingDocument.buildings.map(toPlace);
   const agents = agentDocument.agents.map((agent) => {
     const movement = initialMovement[agent.id] ?? {};
@@ -33,9 +33,11 @@ export async function loadDefaultWorld(rootDir = process.cwd(), baseDir = "stora
   return {
     agents,
     places,
-    disease,
+    disease: config.disease,
     startTime,
+    stepHours: config.stepHours ?? 1,
     baseDir: resolvedBaseDir,
+    config,
     storageAgents: agentDocument,
     storageBuildings: buildingDocument
   };
